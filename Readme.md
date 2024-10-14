@@ -3,6 +3,7 @@
 ## Project Overview
 
 This project implements a software test bench to evaluate the behavior of an STM32 microcontroller using a Raspberry Pi as a controller. The Raspberry Pi sends signals to the STM32, reads the response, measures the duration, and sends the results back to a PC via Ethernet. The PC hosts a GUI that communicates with the Raspberry Pi using gRPC to trigger and monitor tests.
+![Overview](Overview.png)
 
 ## System Architecture
 
